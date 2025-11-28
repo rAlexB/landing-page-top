@@ -13,9 +13,9 @@ header, .hero, footer {
     color: white;
 }
 
-header, .hero{
-    padding-left: 150px;
-    padding-right: 150px;
+header, .hero, .gallery-section{
+    padding-left: 300px;
+    padding-right: 300px;
     align-items: center;
 }
 
@@ -23,8 +23,10 @@ header, .hero{
     color: white;
 }
 
-.header {
+.logo {
     margin-right: auto;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 header ul {
@@ -35,21 +37,73 @@ header ul {
 
 header ul a {
     text-decoration: none;
+    font-size: 18px;
 }
 
 .hero {
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: auto;
+    flex: 1;
     
 }
 
 .hero-content {
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 40%;
+}
+
+.hero-content h1 {
     font-weight: 900;
     font-size: 48px;
-    flex-basis: 1/2;
+}
 
+.hero-content p {
+    font-size: 18px;
+}
+
+.hero-content button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 15%;
+    height: 30px;
+    font-weight: 900;
+    cursor: pointer;
 }
 
 
+.gallery-section {
+    text-align: center;
+}
+
+.gallery-section h2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 150px;
+}
+
+.gallery-item img{
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    min-width: 100%;
+    min-height: 150px;
+}
 
 
