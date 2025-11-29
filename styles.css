@@ -13,7 +13,7 @@ header, .hero, footer {
     color: white;
 }
 
-header, .hero, .gallery-section{
+header, .hero, .gallery-section, .testimonial{
     padding-left: 300px;
     padding-right: 300px;
     align-items: center;
@@ -79,6 +79,7 @@ header ul a {
 
 .gallery-section {
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .gallery-section h2 {
@@ -106,4 +107,51 @@ header ul a {
     min-height: 150px;
 }
 
+.gallery-item p {
+    color: rgb(85, 85, 85);
+    margin-top: 5px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;   
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    margin-left: auto;
+    font-weight: 700;
+}
+
+
+.cta {
+    background-color: #3882f6;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.cta-content {
+    margin-right: auto;
+    color: white;
+}
+
+.cta-content b {
+    font-size: 25px;
+}
 
