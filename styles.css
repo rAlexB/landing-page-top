@@ -43,7 +43,7 @@ header ul a {
 .hero {
     padding-top: 80px;
     padding-bottom: 80px;
-    height: auto;
+    height: 100%;
     flex: 1;
     
 }
@@ -56,7 +56,15 @@ header ul a {
     flex-basis: 40%;
 }
 
+.hero img {
+    
+    background-color: rgba(128, 128, 128, 0.521);
+    min-width: 50%;
+    min-height: stretch;
+}
+
 .hero-content h1 {
+    margin-top: 0;
     font-weight: 900;
     font-size: 48px;
 }
@@ -70,7 +78,7 @@ header ul a {
     color: white;
     border-radius: 5px;
     border-style: none;
-    width: 15%;
+    width: 20%;
     height: 30px;
     font-weight: 900;
     cursor: pointer;
@@ -139,11 +147,12 @@ header ul a {
     margin-left: 300px;
     margin-right: 300px;
     padding-top: 50px;
-    padding-right: 100px;
+    padding-right: 150px;
     padding-bottom: 50px;
-    padding-left: 100px;
+    padding-left: 150px;
     border-radius: 10px;
     display: flex;
+    align-items: center;
 }
 
 .cta-content {
@@ -153,5 +162,25 @@ header ul a {
 
 .cta-content b {
     font-size: 25px;
+}
+
+.cta button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
